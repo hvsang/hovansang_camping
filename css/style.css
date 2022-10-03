@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #f8e1db;
+    padding: 10px 35px;
+}
+
+.header ul {
+    /* xóa dấu tròn đen */
+    list-style: none;
+    margin-top: 15px;
+}
+
+/* 
+margin: khoảng cách từ thẻ này tới thẻ khác
+padding: khoẳng cách từ content đến border
+ */
+
+.header li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.header a {
+    /* xóa gạch chân */
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+/* CAROUSEL */
+
+.carousel {
+    background-image: url("../img/BG.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* ACTIVITIES */
+
+.activities {
+    background-color: #faf4f2;
+    padding: 50px 0;
+}
+
+.activities__title {
+    text-align: center;
+}
+
+.activities__title h2 {
+    text-transform: capitalize;
+    color: #8d8d8d;
+}
+
+.activities__content {
+    padding: 50px 0;
+}
+
+.activities__item {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.activities__background {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.activities__img {
+    position: relative;
+}
+
+.activities__img img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.activities__info h3 {
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+
+.activities__heart {
+    position: absolute;
+    content: "";
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background-color: rgba(255, 255, 255, 0.5);
+    right: 20px;
+    top: 20px;
+    border-radius: 10px;
+}
+
+.activities__heart i {
+    font-size: 16px;
+    color: red
+}
+
+.activities__info p {
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+
+.activities__info button {
+    padding: 10px 70px;
+    text-align: center;
+    border-color: transparent;
+    border-radius: 20px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.activities__viewAll {
+    text-align: center;
+}
+
+.activities__viewAll button {
+    cursor: pointer;
+    padding: 10px 70px;
+    background-color: transparent;
+    border: 1px solid #fd8162;
+    color: #fd8162;
+    border-radius: 20px;
+}
+
+/* CONTACT */
+
+.contact {
+    background-color: #f8e1db;
+    border-radius: 0 20px 20px 0;
+    margin-bottom: 80px;
+}
+
+.contact__left {
+    background-image: url("../img/mask.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.contact__left,
+.contact__right {
+    float: left;
+    width: 50%;
+    padding: 60px 0;
+}
+
+.contact__left {
+    padding-left: 70px;
+}
+
+.contact__right {
+    padding-right: 70px;
+}
+
+.contact__right h2 {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.contact__right p {
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+
+.contact__download {
+    float: left;
+}
+
+.contact__download h3,
+.contact__follow h3 {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.contact__follow ul,
+.contact__download img {
+    margin-top: 20px;
+}
+
+.contact__follow li {
+    display: inline;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.contact__follow a {
+    color: #fd8162;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #f8e1db;
+    padding-top: 90px;
+    border-radius: 90px 90px 0 0;
+}
+
+.footer__left {
+    float: left;
+    width: 40%;
+    padding: 0 50px;
+}
+
+.footer__top h2 {
+    font-size: 20px;
+}
+
+.footer__left p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.footer__right {
+    float: right;
+    width: 60%;
+}
+
+.footer__item {
+    float: left;
+    width: calc(100% / 3);
+}
+
+.footer__item ul {
+    margin-top: 20px;
+}
+
+.footer__item li {
+    font-size: 18px;
+    line-height: 25px;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+}
+
+.footer__bottom {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 50px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.footer__bottom i {
+    color: rgba(0, 0, 0, 0.7);
+}
